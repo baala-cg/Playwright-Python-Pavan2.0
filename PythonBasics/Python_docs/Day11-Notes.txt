@@ -1,0 +1,39 @@
+Object Oriented Programming
+------------------------
+
+Class
+Object
+Inheritance
+Polymorphism
+Encapsulation
+Data abstraction
+
+class ---> collection of variables(attributes) & methods(behavior)
+A class is blue print
+Logical entity
+Does not occupy space in the memory 
+we can create multiple objects for a single class
+
+
+Animal ---> Dog, Horse, elephant etc...
+Employee --> Engineer, manager, clerck etc...
+
+
+
+Object
+----
+Object is an instance of a class
+Object - physical entity
+Object occupies certain amount of memory.
+we can create any number of objects for a single class
+
+
+Function --> we can create without class
+Method --> creates in side the class
+Constructor---creates inside the class and invoked by object automatically.
+
+
+
+
+
+
