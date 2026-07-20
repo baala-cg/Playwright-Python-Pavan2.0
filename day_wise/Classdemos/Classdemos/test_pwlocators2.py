@@ -24,7 +24,7 @@ def test_verify_playwright_locators(page: Page):
 
     page.get_by_role("textbox", name="username").fill("Balu")
     page.wait_for_timeout(10000)
-    page.pause() # Waits indefinitely until you manually resume from the Inspector.
+    page.pause() # Waits indefinitely until you manually resume from the page Inspector.
 
     # 4. get_by_label() - form controls
     page.get_by_label("Email Address:").fill("abc@gmail.com")

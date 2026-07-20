@@ -166,7 +166,7 @@ def test_verify_oauth2_authentication(playwright: Playwright):
     assert token_response.status == 200
     token_data = token_response.json()
     access_token = token_data.get("access_token")
-    # access_token = token_data["access_token"]
+    access_token = token_data["access_token"]
 
     print(f"\nGenerated Access Token: {access_token}")
 

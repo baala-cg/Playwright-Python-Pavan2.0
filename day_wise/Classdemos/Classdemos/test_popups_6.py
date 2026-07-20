@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright, expect, Playwright
 
-def test_hande_popups(playwright:Playwright):
+def test_handle_popups(playwright:Playwright):
     browser=playwright.chromium.launch(headless=False)
     context=browser.new_context()
     page=context.new_page()

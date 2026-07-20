@@ -21,6 +21,7 @@ class Vehicle(ABC):
 
 # Concrete class( impleted abstract methods from abstract class
 class Car(Vehicle):
+    # Type Error if parent class method not implemented
     def start(self):
         print("Car engine started...")
 

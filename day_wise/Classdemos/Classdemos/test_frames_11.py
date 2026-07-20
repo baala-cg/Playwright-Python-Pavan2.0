@@ -8,10 +8,15 @@ def test_frames(page: Page):
     frames=page.frames
     print("Number of frames on a page:", len(frames))  # 7
 
-    # frame 1
-    #frame1=page.frame("name of the frame")  # options 3: get the frame using name  ( We cannot use here since we do not have name for the frame 1
+    # frame 1 - By css selector
     #frame1=page.frame_locator("frame[src='frame_1.html']")  # option 1: get the frame using css
+
+    #frame 2 - By frame url
     frame1= page.frame(url='https://ui.vision/demo/webtest/frames/frame_1.html') # option 2: get the frame using url
+
+    # frame 3 - By frame name
+    #frame1=page.frame("name of the frame")  # options 3: get the frame using name  ( We cannot use here since we do not have name for the frame 1
+
     inputbox=frame1.locator("input[name='mytext1']")
     inputbox.fill("Welcome")
 
