@@ -11,10 +11,10 @@
 
 #Example 3:
 
-#x="10"
-#x=int("10") #Type Error
-# x=int("wel") #ValueError:
-# print(x+5)
+x="10"
+x=int("10")
+x=int("wel") #ValueError:
+print(x+5)
 
 
 #Example 4: Handling exceptions using   try &  except
